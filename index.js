@@ -68,8 +68,8 @@ app.post('/api/enough',(req,res)=>{
     })
 })
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3007;
 
 app.listen(PORT,()=>{
-    console.log('app running on port 8080')
+    console.log('app running on port 3007')
 })
